@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cricket game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="head">Cricket Game</h1>
+    <button
+      class="choice-button"
+      id="bat"
+      onclick="
+          let computerChoice = generateChoice();
+          let resultMsg = generateResult(computerChoice,'Bat');
+          showresult('Bat' , computerChoice , resultMsg);
+          "
+    >
+      <img src="/crickret Game/images/bat.png" alt="" class="image-choice" />
+    </button>
+    <button
+      class="choice-button"
+      id="ball"
+      onclick="
+          computerChoice = generateChoice();
+          resultMsg = generateResult(computerChoice,'Ball');
+          showresult('Ball' , computerChoice , resultMsg);
+          "
+    >
+      <img src="/crickret Game/images/ball.png" alt="" class="image-choice" />
+    </button>
+
+    <button
+      class="choice-button"
+      id="stump"
+      onclick="
+          computerChoice = generateChoice();
+          resultMsg = generateResult(computerChoice,'Stump');
+          showresult('Stump' , computerChoice , resultMsg);
+          "
+    >
+      <img src="/crickret Game/images/stump.png" alt="" class="image-choice" />
+    </button>
+    <div id="user-move"></div>
+    <div id="computer"></div>
+    <div id="res"></div>
+    <div id="score"></div>
+    <button class="reset" onclick=" localStorage.clear(); resetScore();">
+      Reset
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
