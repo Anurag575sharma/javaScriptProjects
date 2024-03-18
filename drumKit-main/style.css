@@ -1,0 +1,78 @@
+body{
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/017/200/664/original/colorful-glowing-music-equalizer-animation-on-black-background-audio-spectrum-music-background-loop-animation-of-equalizer-multicolored-sound-equalizer-animation-nightclub-and-disco-background-free-video.jpg");
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(190, 40, 61);
+    font-size: 6rem;
+    font-family: 'Aclonica', sans-serif;
+}
+
+footer{
+    color: blanchedalmond;
+}
+
+.drum{
+    border: 10px solid rgb(91, 94, 151);
+    margin: 5px;
+    height: 200px;
+    width: 12%;
+    font-size: 5rem;
+    padding-top: 100px;
+    border-radius: 15%;
+    font-family: 'Aclonica', sans-serif;
+    color: rgb(6 0 61);
+    font-weight: 750;
+    text-shadow: 2px 3px rgb(41 172 220);
+
+}
+
+footer{
+    margin-top: 200px;
+}
+
+.W{
+    background-image: url('Drum Kit Completed/images/tom1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.A{
+    background-image: url('Drum Kit Completed/images/tom2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.S{
+    background-image: url('Drum Kit Completed/images/tom3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.D{
+    background-image: url('Drum Kit Completed/images/tom4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.J{
+    background-image: url('Drum Kit Completed/images/snare.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.K{
+    background-image: url('Drum Kit Completed/images/crash.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.L{
+    background-image: url('Drum Kit Completed/images/kick.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 rgb(229 242 249);
+    opacity: 0.5;
+}
